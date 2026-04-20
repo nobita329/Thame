@@ -37,6 +37,8 @@ install_theme() {
 
     # 4. Build UI
     cd $PAYMENTER_PATH
+    sudo apt update
+    sudo apt install nodejs npm -y
     npm install
     npm run build obsidian || npm run build
 
