@@ -34,6 +34,7 @@ install_theme() {
     cd $PAYMENTER_PATH && unzip -o files.zip && rm files.zip
     cd $PAYMENTER_PATH/themes/ && unzip -o thame.zip && rm thame.zip
     cd $PAYMENTER_PATH/extensions/Others/ && unzip -o pages.zip && rm pages.zip
+    cd $PAYMENTER_PATH/extensions/Others/ && unzip -o Extras.zip && rm Extras.zip
 
     # 4. Build UI
     cd $PAYMENTER_PATH
