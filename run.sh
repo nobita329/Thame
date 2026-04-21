@@ -30,6 +30,7 @@ install_theme() {
     sudo cp files.zip $PAYMENTER_PATH/
     sudo cp thame.zip $PAYMENTER_PATH/themes/
     sudo cp pages.zip $PAYMENTER_PATH/extensions/Others/
+    sudo cp Extras.zip $PAYMENTER_PATH/extensions/Others/
 
     cd $PAYMENTER_PATH && unzip -o files.zip && rm files.zip
     cd $PAYMENTER_PATH/themes/ && unzip -o thame.zip && rm thame.zip
